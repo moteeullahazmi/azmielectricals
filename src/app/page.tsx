@@ -1,18 +1,20 @@
-import Image from "next/image";
-"use client"
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import ProductsGrid from "@/components/ProductsGrid";
+import Gallery from "@/components/Gallery";
+import GoogleReviews from "@/components/GoogleReviews";
+import Map from "@/components/Map";
 
-export default function Home() {
-  
-   const Homehandle =  () => {
-      console.log("Home Page Working")
-    }
-
+export default function HomePage() {
   return (
-    <div>
-      <button onClick={Homehandle}>Home</button>
-      <button>Products</button>
-      <button>About Us</button>
-      <button>Contact</button>
-    </div>
+    <>
+      <Hero />
+      <GoogleReviews />
+      <Features />
+      <ProductsGrid />
+      <Gallery />
+      <GoogleReviews />
+      <Map />
+    </>
   );
 }
