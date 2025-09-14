@@ -4,6 +4,7 @@ import ProductsGrid from "@/components/ProductsGrid";
 import Gallery from "@/components/Gallery";
 import GoogleReviews from "@/components/GoogleReviews";
 import Map from "@/components/Map";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -13,8 +14,8 @@ export default function HomePage() {
       <Features />
       <ProductsGrid />
       <Gallery />
-      <GoogleReviews />
       <Map />
+      <Footer/>
     </>
   );
 }

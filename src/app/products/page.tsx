@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
+import Footer from "@/components/Footer";
 
 interface Product {
   name: string;
@@ -68,6 +69,7 @@ export default function Products() {
           );
         })}
       </div>
+      <Footer/>
     </section>
   );
 }

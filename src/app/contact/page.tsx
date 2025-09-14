@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { FaPhone, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 import SectionTitle from "@/components/SectionTitle";
+import Footer from "@/components/Footer";
+import Map from "@/components/Map";
 
 export default function Contact() {
   const contacts = [
@@ -72,16 +74,10 @@ export default function Contact() {
       </div>
 
       {/* Map */}
-      <div className="w-full h-64 md:h-96 rounded-xl overflow-hidden shadow-lg">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.123456789!2d83.1834567!3d26.060123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399b5abcd1234567%3A0x1234567890abcdef!2sAzmi%20Electricals%2C%20Azamgarh!5e0!3m2!1sen!2sin!4v1234567890"
-          width="100%"
-          height="100%"
-          className="border-0"
-          allowFullScreen
-          loading="lazy"
-        ></iframe>
+      <div className="w-full h-64 md:h-96 rounded-xl overflow-hidden shadow-lg m-4">
+        <Map/>
       </div>
+      <Footer/>
     </section>
   );
 }

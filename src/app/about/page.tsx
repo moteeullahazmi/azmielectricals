@@ -4,6 +4,7 @@ import Image from "next/image";
 import CTAButton from "@/components/CTAButton";
 import SectionTitle from "@/components/SectionTitle";
 import { useEffect } from "react";
+import Footer from "@/components/Footer";
 
 interface TeamMemberProps {
   photo: string;
@@ -85,6 +86,7 @@ export default function AboutUsWithReviews() {
           ></div>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 }
