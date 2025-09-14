@@ -10,7 +10,7 @@ export default function HeroImageCarousel() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 5000); // Change every 5 seconds
+    }, 2500); // Change every 2.5 seconds
 
     return () => clearInterval(interval); // Cleanup
   }, []);
