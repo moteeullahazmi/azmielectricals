@@ -17,7 +17,7 @@ export default function Footer() {
             href="https://www.facebook.com/azmielectricals"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-300 transition-colors"
+            className="hover:text-yellow-400 transition-colors "
           >
             <FaFacebookF className="w-5 h-5 md:w-6 md:h-6" />
           </a>
@@ -25,7 +25,7 @@ export default function Footer() {
             href="https://www.instagram.com/azmiagencies"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-300 transition-colors"
+            className="hover:text-yellow-400 transition-colors"
           >
             <FaInstagram className="w-5 h-5 md:w-6 md:h-6" />
           </a>
