@@ -33,13 +33,15 @@ export default function Map() {
       <SectionTitle title="Find Us" />
 
       {!showMap && (
-        <div className="relative mt-6 rounded-lg shadow">
-          <Image 
-            src="/map-placeholder.webp" // small WebP placeholder
+        <div className="relative mt-6 rounded-lg shadow h-96 w-full">
+          <Image
+            src="/image.png"
             alt="Azmi Electricals Location"
-            className="w-full h-96 object-cover rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
+
       )}
 
       {showMap && (
