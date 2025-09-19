@@ -7,11 +7,11 @@ export default function Hero() {
       
       {/* Text Section */}
       <div className="w-full md:w-1/2 text-center md:text-left">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 leading-snug">
-          Wholesales and Retailers Top Shop in Azamgarh
-        </h1>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 leading-snug">
+          Wholesales and Retailers Top Shop in Azamgarh.
+        </h2>
         <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-700">
-          Since 1982, Azmi Electricals has been trusted for high-quality electrical products in wholesale and retail.
+          Since 1980, Azmi Electricals has been trusted for high-quality electrical products in wholesale and retail.
         </p>
         <div className="mt-6 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
           <CTAButton href="tel:+919125565573" color="blue">Call Now</CTAButton>

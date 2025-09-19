@@ -9,7 +9,9 @@ export default function Navbar() {
   return (
     <nav className="bg-blue-900 text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-        <h1 className="text-2xl font-bold">Azmi Electricals</h1>
+        <h1 className="text-2xl font-bold">
+          <a href="/" className="hover:text-yellow-400">Azmi Electricals</a>
+        </h1>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6 font-medium">

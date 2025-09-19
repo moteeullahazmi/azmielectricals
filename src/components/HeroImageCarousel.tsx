@@ -27,6 +27,7 @@ export default function HeroImageCarousel() {
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
           priority={index === 0} // First image loads faster
+          loading={index === 0 ? "eager" : "lazy"}
         />
       ))}
     </div>

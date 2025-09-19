@@ -52,10 +52,10 @@ export default function AboutUsWithReviews() {
         {/* Left Side: Text + CTA */}
         <div className="md:w-1/2 p-6 flex flex-col justify-center gap-4">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
-            Trusted Electrical Shop in Azamgarh Since 1982
+            Azmi Electrical Shop in Azamgarh Since 1980.
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Azmi Electricals was founded in 1982 by Late Hafiz Israr Ahmad. Today, it is proudly run by his sons, Wasiullah Azmi & Khalilullah Sheikh Azmi.
+            Azmi Electricals was founded in 1980 by Late Hafiz Israr Ahmad. Today, it is proudly run by his sons, Wasiullah Azmi & Khalilullah Sheikh Azmi.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Our mission is to provide trusted, affordable, and high-quality electrical products to wholesalers and retailers.

@@ -2,12 +2,12 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-900 text-white shadow-lg mt-auto">
+    <footer className="bg-blue-900 text-white shadow-lg mt-auto  hover:text-yellow-400">
       <div className="flex flex-col sm:flex-row items-center justify-between px-4 sm:px-6 md:px-12 py-3 md:py-4 max-w-6xl mx-auto">
         
         {/* Copyright */}
         <p className="text-center sm:text-left text-sm md:text-base">
-          © {new Date().getFullYear()} Azmi Electricals, Bindra Bazar, Azamgarh. All Rights Reserved.
+          © 1980-{new Date().getFullYear()} Azmi Electricals, Bindra Bazar, Azamgarh. All Rights Reserved.
         </p>
 
         {/* Social Links */}

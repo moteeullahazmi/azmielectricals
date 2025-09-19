@@ -21,6 +21,7 @@ export default function Gallery() {
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
               priority={index === 0}
+              loading={index === 0 ? "eager" : "lazy"}
             />
           </div>
         ))}
