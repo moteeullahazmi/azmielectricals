@@ -1,3 +1,4 @@
+
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -10,8 +11,9 @@ export const metadata = {
     "Electrical Shop Azamgarh",
     "Azmi Electricals",
     "Bindra Bazar Electricals",
-    "Wholesale Electricals",
+    "Wholesales Electricals",
     "Retail Electrical Goods",
+    "Retail Shop",
   ],
 };
 
@@ -21,7 +23,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-gray-50 text-gray-800 antialiased">
         <Navbar />
         <main>{children}</main>
-
       </body>
     </html>
   );
