@@ -51,9 +51,9 @@ export default function AboutUsWithReviews() {
       <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-xl overflow-hidden">
         {/* Left Side: Text + CTA */}
         <div className="md:w-1/2 p-6 flex flex-col justify-center gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
+          <h1 className="text-3xl md:text-4xl font-bold text-blue-900">
             Azmi Electrical Shop in Azamgarh Since 1980.
-          </h2>
+          </h1>
           <p className="text-gray-700 leading-relaxed">
             Azmi Electricals was founded in 1980 by Late Hafiz Israr Ahmad. Today, it is proudly run by his sons, Wasiullah Azmi & Khalilullah Sheikh Azmi.
           </p>
