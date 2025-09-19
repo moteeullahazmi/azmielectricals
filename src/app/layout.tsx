@@ -1,6 +1,7 @@
 
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-gray-50 text-gray-800 antialiased">
         <Navbar />
         <main>{children}</main>
+        <SpeedInsights/>
       </body>
     </html>
   );

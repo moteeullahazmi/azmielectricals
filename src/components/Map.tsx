@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import SectionTitle from "./SectionTitle";
+import Image from "next/image";
 
 export default function Map() {
   const [showMap, setShowMap] = useState(false);
@@ -33,7 +34,7 @@ export default function Map() {
 
       {!showMap && (
         <div className="relative mt-6 rounded-lg shadow">
-          <img
+          <Image 
             src="/map-placeholder.webp" // small WebP placeholder
             alt="Azmi Electricals Location"
             className="w-full h-96 object-cover rounded-lg"
